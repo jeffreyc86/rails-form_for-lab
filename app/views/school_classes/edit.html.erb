@@ -1,0 +1,8 @@
+<h3>Edit Class Details</h3>
+<%= form_for @schoolclass do |f| %>
+    <%= f.label :title, "Title" %>
+    <%= f.text_field :title %>
+    <%= f.label :room_number, "Room Number" %>
+    <%= f.number_field :room_number %>
+    <%= f.submit %>
+<% end %>
